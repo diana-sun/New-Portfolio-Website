@@ -1,0 +1,332 @@
+@import url(reset.css);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: PT Sans Narrow;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    word-spacing: 1.6px;
+    line-height: 125%;
+}
+
+.clear {
+    clear:both;
+}
+
+header {                                /*** Header ***/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: #2D2D2D;
+    opacity: 1;
+    z-index: 99;
+}
+nav {                                    /*** Nav ***/
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul {
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px 0 15px;
+}
+
+nav a {
+    font-family: Economica;
+    font-size: 17px;
+    line-height: 42px;
+}
+
+a {
+    text-decoration: none;
+    font-family: PT Sans Narrow;
+    transition: 0.3s linear all;
+    color: #666;
+}
+
+a:hover {
+    color: #aaa;
+    transition: 0.2s linear all;
+}
+
+nav a img {
+    width: 60px;
+    vertical-align: middle;
+}
+
+.active {                                /*** Active Class ***/
+    color: #FDD900;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+.content > section {
+    width: 100%;
+    height: 100%;
+}
+
+#home {
+    background-size: cover;
+}
+
+#intro {                                /*** Intro ***/
+    padding-top: 20%;
+    text-align: center;
+    font-family: Economica;
+}
+
+#intro h1 {
+    font-size: 70px;
+    color: #FDD900;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 
+        1px 1px 1px #2d2d2d,
+        2px 2px 2px #2d2d2d,
+        3px 3px 3px #2d2d2d;
+}
+
+#intro p {
+    padding-top: 3%;
+    margin-bottom: 8%;
+    font-size: 30px;
+    color: #eee;
+    text-shadow: 2px 2px #2d2d2d;
+}
+
+#intro a{
+    border: 2px solid #2d2d2d;
+    background-color: #eee;
+    opacity: 0.75;
+    color: #2d2d2d;
+    font-family: Economica;
+    font-size: 30px;
+    position: relative;
+    padding: 5px 15px 10px 15px;
+}
+
+#intro a:hover {
+    color: #FDD900;
+    border: 3px solid #2d2d2d;
+    background-color: #2d2d2d;
+    transition: 0.2s linear all;
+    opacity: 1;
+}
+
+#work {                                /*** Work ***/
+    background: #FDD900;
+    width: 100%;
+    display: block;
+}
+#work article {
+    padding-top: 10%;
+}
+
+.projects {
+    width: 25%;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.projects p {
+    position: relative;
+    top: 100px;
+    color: #eee;
+    text-align: center;
+}
+
+.projects a {
+    display: inline-block;
+    width: 100%; 
+    transition: 0.2s linear all;
+    
+    margin-right: -6px;
+    margin-bottom: -11px;
+    background-color:black;
+}
+
+.projects a img{
+    width: 100%;
+    margin-bottom: -5px;
+    padding-right: -55px;
+    opacity: 0.5;
+}
+
+
+
+#about {                                /*** About ***/
+    background: #eee;
+}
+
+#about article section img{
+    width: 30%;
+    margin: 10% 0 auto 12%;
+    display: inline-block;
+    float: left;
+}
+
+#about article aside {
+    width: 40%;
+    margin: 10% 0 auto 5%;
+    display: inline-block;
+}
+
+#about p {
+    text-indent: 40px;
+    padding-bottom: 10px;
+    line-height: 155%;
+}
+
+#about h1 {
+    font-family: Economica;
+    font-size: 30px;
+    color: #FDD900;
+    margin-bottom: 0.7em;
+}
+
+#sayhi a{
+    border: 1.5px solid #2d2d2d;
+    color: #2d2d2d;
+    display: inline-block;
+    padding: 5px 7px 7px 7px;
+    margin-top: 0.3 em;
+}
+
+#sayhi a:hover {
+    border: 1.5px solid #2d2d2d;
+    color: #eee;
+    background-color: #2d2d2d;
+}
+
+
+#resume {                                /*** Resume ***/
+    background-color: #2d2d2d;
+    color: #eee;
+}
+
+#resume a {
+    border: 1.5px solid #fdd900;
+    color: #fdd900;
+    display: inline-block;
+    padding: 5px 7px 7px 7px;
+    margin-top: 3.2em;
+    
+}
+
+#resume a:hover {
+    border: 1.5px solid #eee;
+    color: #2d2d2d;
+    background-color: #eee;
+    
+}
+
+#resume h1 {
+    padding-top: 8%;
+    padding-left: 20%;
+    font-family: Economica;
+    font-size: 30px;
+    display: block;
+    width: 10%;
+}
+
+#resume h2 {
+    padding-top: 2em;
+    font-size: 17px;
+    color: #fdd900;
+}
+
+#resume h3 {
+    padding-top: 1em;
+    font-weight: 700;
+    
+}
+
+#resume p {
+    color: #aaa;
+}
+
+#leftcol {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    padding-left: 20%;
+}
+
+#leftcol ul{
+    padding-top: 1em;
+    color: #aaa;
+}
+
+#rightcol {
+    display: inline-block;
+    width: 35%;
+}
+
+#contact {                                /*** Contact ***/
+    color: #eee;
+}
+
+#contact article {
+    padding-top: 20%;
+    text-align: center;
+    line-height: 150%;
+}
+
+#contact a {
+    color: #eee;
+}
+
+#contact a:hover {
+    color: #aaa;
+}
+
+#contact h1{
+    font-family: Economica;
+    font-size: 30px;
+    display: block;
+    color: #fdd900;
+}
+
+#icons {
+    display: block;
+    margin-top: 1em;
+}
+
+#icons li {
+    display: inline-block;
+    padding: 10px 15px 0px 15px;
+    font-size: 30px;
+}
+
+#icons li a {
+    color: #eee;
+    
+}
+
+#icons li a:hover {
+    color: #fdd900;
+}
+
+footer {                                /*** Footer ***/
+    height: 100px;
+    background-color: #2d2d2d;
+    color: #eee;
+    text-align: center;
+    padding-top: 45px;
+}
+
+footer h1 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0.2em;
+}
