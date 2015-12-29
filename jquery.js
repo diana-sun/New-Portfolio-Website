@@ -27,7 +27,7 @@ function onScroll(event){
     $('nav a').each(function () {
         var currentLink = $(this);
         var refElement = $(currentLink.attr("href"));
-        if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+        if (refElement.position().top -60 <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
             $('nav ul li a').removeClass("active");
             currentLink.addClass("active");
         }
@@ -36,7 +36,6 @@ function onScroll(event){
         }
     });
 }
-
 
 
 

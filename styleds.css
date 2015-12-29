@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-family: PT Sans Narrow;
+    font-family: 'PT Sans Narrow';
     font-weight: 400;
     letter-spacing: 0.7px;
     word-spacing: 1.6px;
@@ -41,14 +41,14 @@ nav ul li {
 }
 
 nav a {
-    font-family: Economica;
+    font-family: 'Economica';
     font-size: 17px;
     line-height: 42px;
 }
 
 a {
     text-decoration: none;
-    font-family: PT Sans Narrow;
+    font-family: 'PT Sans Narrow';
     transition: 0.3s linear all;
     color: #666;
 }
@@ -64,7 +64,7 @@ nav a img {
 }
 
 .active {                                /*** Active Class ***/
-    color: #FDD900;
+    color: #FFC227;
 }
 
 .content {
@@ -83,13 +83,14 @@ nav a img {
 #intro {                                /*** Intro ***/
     padding-top: 20%;
     text-align: center;
-    font-family: Economica;
+    font-family: 'Economica';
 }
 
 #intro h1 {
     font-size: 70px;
-    color: #FDD900;
-    font-family: 'Playfair Display', serif;
+    color: #FFC227;
+    font-weight: 700;
+    font-family: 'Maven Pro', serif;
     text-shadow: 
         1px 1px 1px #2d2d2d,
         2px 2px 2px #2d2d2d,
@@ -109,14 +110,14 @@ nav a img {
     background-color: #eee;
     opacity: 0.75;
     color: #2d2d2d;
-    font-family: Economica;
+    font-family: 'Economica';
     font-size: 30px;
     position: relative;
     padding: 5px 15px 10px 15px;
 }
 
 #intro a:hover {
-    color: #FDD900;
+    color: #FFC227;
     border: 3px solid #2d2d2d;
     background-color: #2d2d2d;
     transition: 0.2s linear all;
@@ -124,12 +125,12 @@ nav a img {
 }
 
 #work {                                /*** Work ***/
-    background: #FDD900;
+    background: #2d2d2d;
     width: 100%;
     display: block;
 }
 #work article {
-    padding-top: 10%;
+    padding-top: 12%;
 }
 
 .projects {
@@ -138,28 +139,35 @@ nav a img {
     margin-top: -20px;
 }
 
-.projects p {
+.projects h1 {
     position: relative;
-    top: 100px;
+    top: -110px;
     color: #eee;
     text-align: center;
+    font-size: 20px;
+    font-family: 'Economica', sans-serif, serif;
 }
 
 .projects a {
     display: inline-block;
-    width: 100%; 
-    transition: 0.2s linear all;
-    
+    width: 100%;
     margin-right: -6px;
     margin-bottom: -11px;
-    background-color:black;
 }
 
 .projects a img{
     width: 100%;
     margin-bottom: -5px;
     padding-right: -55px;
-    opacity: 0.5;
+    opacity: 0.4;
+}
+
+.projects a:hover h1{
+    
+}
+
+.projects a:hover img {
+    opacity: 0.8;
 }
 
 
@@ -188,9 +196,9 @@ nav a img {
 }
 
 #about h1 {
-    font-family: Economica;
+    font-family: 'Economica';
     font-size: 30px;
-    color: #FDD900;
+    color: #FFC227;
     margin-bottom: 0.7em;
 }
 
@@ -216,7 +224,7 @@ nav a img {
 
 #resume a {
     border: 1.5px solid #fdd900;
-    color: #fdd900;
+    color: #FFC227;
     display: inline-block;
     padding: 5px 7px 7px 7px;
     margin-top: 3.2em;
@@ -233,7 +241,7 @@ nav a img {
 #resume h1 {
     padding-top: 8%;
     padding-left: 20%;
-    font-family: Economica;
+    font-family: 'Economica';
     font-size: 30px;
     display: block;
     width: 10%;
@@ -242,7 +250,7 @@ nav a img {
 #resume h2 {
     padding-top: 2em;
     font-size: 17px;
-    color: #fdd900;
+    color: #FFC227;
 }
 
 #resume h3 {
@@ -291,10 +299,10 @@ nav a img {
 }
 
 #contact h1{
-    font-family: Economica;
+    font-family: 'Economica';
     font-size: 30px;
     display: block;
-    color: #fdd900;
+    color: #FFC227;
 }
 
 #icons {
@@ -314,7 +322,7 @@ nav a img {
 }
 
 #icons li a:hover {
-    color: #fdd900;
+    color: #FFC227;
 }
 
 footer {                                /*** Footer ***/
@@ -327,6 +335,7 @@ footer {                                /*** Footer ***/
 
 footer h1 {
     font-size: 30px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Maven Pro', serif;
+    font-weight: 700;
     margin-bottom: 0.2em;
 }
