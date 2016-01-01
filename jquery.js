@@ -37,7 +37,3 @@ function onScroll(event){
     });
 }
 
-
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});

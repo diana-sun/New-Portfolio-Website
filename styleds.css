@@ -78,7 +78,8 @@ nav a img {
 
 #branding .content {
     width: 100%;
-    height: 60%;
+    height: 40%;
+    background-color: #2d2d2d;
 }
 
 #branding .content > section {
@@ -98,32 +99,31 @@ nav a img {
 
 #intro h1 {
     font-size: 70px;
-    color: #FFC227;
+    color: #2d2d2d;
     font-weight: 700;
-    font-family: 'Maven Pro', serif;
+    font-family: 'Arvo', serif;
+    font-style: italic;
     text-shadow: 
-        1px 1px 1px #2d2d2d,
-        2px 2px 2px #2d2d2d,
-        3px 3px 3px #2d2d2d;
+        1px 1px 1px #FFC227,
+        2px 2px 2px #FFC227,
+        3px 3px 3px #FFC227;
 }
 
 #intro p {
     padding-top: 3%;
     margin-bottom: 8%;
     font-size: 30px;
-    color: #eee;
-    text-shadow: 2px 2px #2d2d2d;
+    color: #2d2d2d;
+    /**text-shadow: 2px 2px #2d2d2d; **/
 }
 
 #intro a{
     border: 2px solid #2d2d2d;
-    background-color: #eee;
-    opacity: 0.75;
     color: #2d2d2d;
     font-family: 'Economica';
     font-size: 30px;
     position: relative;
-    padding: 5px 15px 10px 15px;
+    padding: 4px 13px 8px 14px;
 }
 
 #intro a:hover {
@@ -349,7 +349,8 @@ footer {                                /*** Footer ***/
 
 footer h1 {
     font-size: 30px;
-    font-family: 'Maven Pro', serif;
+    font-family: 'Arvo', serif;
+    font-style: italic;
     font-weight: 700;
     margin-bottom: 0.2em;
 }
@@ -364,23 +365,90 @@ footer h1 {
     padding-left: 3em;
 }
 
-#first {
-    background-color: #fff;
-}
-
-#second {
-    background-color: #eee;
-}
-
 .steps h2 {
     display: block;
     font-size: 30px;
     padding-top: 1em;
     padding-bottom: 1em;
+    font-family: 'Economica';
+    color: #2d2d2d;
 }
 
+#projecttitle {
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'Economica';
+    padding-bottom: 2%;
+    
+}
+#projecttitle h2 {
+    font-size: 70px;
+    padding-bottom: 0.5em;
+    color: #ffc227;
+    line-height: 130%;
+}
+
+#projecttitle p {
+    font-size: 30px;
+    color: #eee;
+    line-height: 150%;
+}
+
+#top {
+    height: 100%;
+}
+
+.wholewidth{
+    width: 100%;
+}
+
+#first, #third, #fourth, #fifth {
+    background-color: #fff;
+}
+
+#second, #sixth {
+    background-color: #eee;
+}
+
+#second img {
+    display: inline-block;
+    float:left;
+    width: 600px;
+}
+
+#fourth {
+    background-image: url("sliderstuff/brandingprocess8.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fourth img {
+    width: 96%;
+}
+#fifth img {
+    display: inline-block;
+    height: 430px;
+}
+
+#sixth img {
+    display: inline-block;
+    height: 350px;
+}
 .description {
     display: inline-block;
     width: 40%;
     padding-left: 3.5em;
+}
+
+#branding #work article {
+    padding-top: 6%;
+    background-color: #2d2d2d;
+}
+
+.footerwork h2 {
+    font-size: 30px;
+    padding-top: 2em;
+    text-align: center;
+    color: #ffc227;
+    font-family: 'Economica';
 }
