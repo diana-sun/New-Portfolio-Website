@@ -6,7 +6,7 @@
 .jcarousel-wrapper {
     position: relative;
     border: 0px solid #fff;
-    width: 600px;
+    width: 550px;
     height: 400px;
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
@@ -16,6 +16,10 @@
             box-shadow: 0 0 2px #999;
 }
 
+#ux #third .jcarousel-wrapper {
+    width: 600px;
+    height: 400px;
+}
 
 .jcarousel-wrapper .photo-credits {
     position: absolute;

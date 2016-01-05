@@ -379,6 +379,7 @@ footer h1 {
     text-align: center;
     font-family: 'Economica';
     padding-bottom: 2%;
+    background-color: #2d2d2d;
     
 }
 #projecttitle h2 {
@@ -400,37 +401,46 @@ footer h1 {
 
 .wholewidth{
     width: 100%;
+    display: block;
 }
 
-#first, #third, #fourth, #fifth {
+#first, #third, #branding #fourth, #fifth {
     background-color: #fff;
 }
 
-#second, #sixth {
+#second, #fourth, #sixth {
     background-color: #eee;
 }
 
 #second img {
     display: inline-block;
     float:left;
-    width: 600px;
+    width: 550px;
 }
 
-#fourth {
+#branding #fourth {
     background-image: url("sliderstuff/brandingprocess8.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-#fourth img {
-    width: 96%;
+.rightimg img {
+    width: 34%;
+    display: inline-block;
+    padding-left: 3.5em;
 }
-#fifth img {
+
+#branding #fifth img {
     display: inline-block;
     height: 430px;
 }
 
-#sixth img {
+#ux #seventh img {
+    display: inline-block;
+    height: 470px;
+}
+
+#branding #sixth img {
     display: inline-block;
     height: 350px;
 }
@@ -440,9 +450,13 @@ footer h1 {
     padding-left: 3.5em;
 }
 
-#branding #work article {
+#branding #work article, #ux #work article {
     padding-top: 6%;
     background-color: #2d2d2d;
+}
+
+#ux h3 {
+    font-weight: 700;
 }
 
 .footerwork h2 {
