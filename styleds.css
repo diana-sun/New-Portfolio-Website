@@ -67,6 +67,8 @@ nav a img {
     color: #FFC227;
 }
 
+
+
 .content {
     width: 100%;
     height: 100%;
@@ -104,9 +106,9 @@ nav a img {
     font-family: 'Arvo', serif;
     font-style: italic;
     text-shadow: 
-        1px 1px 1px #FFC227,
-        2px 2px 2px #FFC227,
-        3px 3px 3px #FFC227;
+        1px 1px 1px #fff,
+        2px 2px 2px #fff,
+        3px 3px 3px #fff;
 }
 
 #intro p {
@@ -121,9 +123,9 @@ nav a img {
     border: 2px solid #2d2d2d;
     color: #2d2d2d;
     font-family: 'Economica';
-    font-size: 30px;
+    font-size: 17px;
     position: relative;
-    padding: 4px 13px 8px 14px;
+    padding: 5px 13px 5px 14px;
 }
 
 #intro a:hover {
@@ -361,8 +363,8 @@ footer h1 {
 .steps {
     display: block;
     height: 570px;
-    padding-top: 1em;
-    padding-left: 3em;
+    padding-top: 0.5%;
+    padding-left: 4%;
 }
 
 .steps h2 {
@@ -412,7 +414,7 @@ footer h1 {
     background-color: #eee;
 }
 
-#second img {
+#branding #second img, #play #second img {
     display: inline-block;
     float:left;
     width: 550px;
@@ -450,13 +452,107 @@ footer h1 {
     padding-left: 3.5em;
 }
 
-#branding #work article, #ux #work article {
-    padding-top: 6%;
-    background-color: #2d2d2d;
-}
-
 #ux h3 {
     font-weight: 700;
+}
+
+#play #first img, #play #fourth img, #luminaire #first img, #iot #first img, #iot #second img,
+#ae #first img, #ae #third img{
+    display: inline-block;
+    float:left;
+    width: 550px;
+}
+
+#play #third img {
+    height: 60%;
+    display: inline-block;
+}
+
+#play video{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#luminaire #second img, #ae #second img, #ae #fourth img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+#webdes #third img {
+    width: 84%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+}
+
+
+#luminaire #video {
+    width: 712px;
+    display: block;
+    margin: 2em auto;
+}
+
+#iot #third, #ae #second, #ae #fourth {
+    padding-bottom: 2em;
+}
+
+#iot #third img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#iot #third h2, #ae #second h2, #ae #fourth h2, #webdes #first h2, #webdes #second h2{
+    display: block;
+    padding-top: 1em;
+    padding-left: 1.7em;
+    padding-bottom: 1em;
+    font-size: 30px;
+    font-family: 'Economica';
+    color: #2d2d2d;
+}
+
+#ae #fourth img {
+    padding-bottom: 0.5em;
+}
+
+#webdes #first, #webdes #second {
+    display: block;
+    padding-left: 5%;
+}
+
+#webdes #first h2, #webdes #second h2 {
+    padding-left: 0em;
+}
+
+#webdes #first img, #webdes #second img {
+    display: inline-block;
+    width: 45%;
+    margin-right: 0.5%;
+    vertical-align: top;
+    padding-bottom: 3em;
+}
+
+.gallery {
+    padding: 2% 0% 2% 1.5%;
+}
+
+.gallery li {
+    display: inline-block;
+    width: 32%;
+}
+
+.gallery li img {
+    width: 100%;
+    vertical-align: top;
+    padding: 1% 1%;
+}
+
+#branding #work article, #ux #work article, #play #work article, #luminaire #work article,
+#webdes #work article, #ae #work article, #iot #work article, #photography #work article {
+    padding-top: 6%;
+    background-color: #2d2d2d;
 }
 
 .footerwork h2 {
@@ -465,4 +561,9 @@ footer h1 {
     text-align: center;
     color: #ffc227;
     font-family: 'Economica';
+}
+
+
+    
+@media screen and (max-width: 450px) {
 }
